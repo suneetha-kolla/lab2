@@ -1,15 +1,15 @@
 name: Exploring Workflow Dispatch Trigger
 on:
   workflow_dispatch:
-  inputs:  
-    run-job:
-      required: false
-      type: boolean
-      description: Run Specific Job
-    custom_message:
-      required: true
-      type: string
-      description: Enter a custom message
+    inputs:  
+      run-job:
+        required: false
+        type: boolean
+        description: Run Specific Job
+      custom_message:
+        required: true
+        type: string
+        description: Enter a custom message
 jobs:
   job1:
     runs-on: ubuntu-latest
