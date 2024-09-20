@@ -1,5 +1,4 @@
 name: Exploring Workflow Dispatch Trigger
-
 on:
   workflow_dispatch:
   inputs:  
@@ -21,4 +20,3 @@ jobs:
     steps:
       - name: Printing Custom Message
         run: echo ${{ inputs.custom_message}}    
-        
